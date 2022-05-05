@@ -32,7 +32,7 @@ for char in range(1, nr_symbols + 1):
     password_List.append(random.choice(symbols))
 
 for char in range(1, nr_numbers + 1):
-    password_List(random.choice(numbers))
+    password_List.append(random.choice(numbers))
 
 random.shuffle(password_List)
 
@@ -40,4 +40,6 @@ password = ""
 for char in password_List:
     password += char
 
-print(f"Your password is: {password}")
+#print(f"Your password is: {password}")
+
+
